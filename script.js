@@ -18,33 +18,33 @@ const phases = [
 
 const questions = [
   {
-    question: "Pergunta 1: Exemplo real da fase 1",
+    question: "1-O que mais te faz sentir amada?",
     answers: [
-      { text: "Opção A", value: "v1" },
-      { text: "Opção B", value: "v2" },
-      { text: "Opção C", value: "v3" },
-      { text: "Opção D", value: "v4" },
-      { text: "Opção E", value: "v5" },
+      { text: "Palavras de carinho", value: "v1" },
+      { text: "Gestos inesperados", value: "v2" },
+      { text: "Tempo de qualidade juntos", value: "v3" },
+      { text: "Toques afetuososD", value: "v4" },
+      { text: "Ajuda nas tarefas do dia a dia", value: "v5" },
     ]
   },
   {
-    question: "Pergunta 2: Exemplo real da fase 1",
+    question: "2-O que mais fortalece a tua ligação emocional com o teu parceiro",
     answers: [
-      { text: "Opção A", value: "v1" },
-      { text: "Opção B", value: "v2" },
-      { text: "Opção C", value: "v3" },
-      { text: "Opção D", value: "v4" },
-      { text: "Opção E", value: "v5" },
+      { text: "Conversas profundas", value: "v1" },
+      { text: "Rituais românticos", value: "v2" },
+      { text: "Escuta ativa", value: "v3" },
+      { text: "Rir juntos", value: "v4" },
+      { text: "Momentos de silêncio partilhado", value: "v5" },
     ]
   },
   {
-    question: "Pergunta 3: Exemplo real da fase 1",
+    question: "Pergunta 3:Como gostarias que o teu parceiro te acarinhasse mais?",
     answers: [
-      { text: "Opção A", value: "v1" },
-      { text: "Opção B", value: "v2" },
-      { text: "Opção C", value: "v3" },
-      { text: "Opção D", value: "v4" },
-      { text: "Opção E", value: "v5" },
+      { text: "Com mais palavras doces", value: "v1" },
+      { text: "Com mais mimos físicos", value: "v2" },
+      { text: "Com mais surpresas", value: "v3" },
+      { text: "Com mais atenção às tuas emoções", value: "v4" },
+      { text: "Com mais presença no quotidiano", value: "v5" },
     ]
   },
   {
