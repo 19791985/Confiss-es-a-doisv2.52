@@ -18,7 +18,7 @@ const phases = [
 
 const questions = [
   {
-    question: "1-O que mais te faz sentir amada?",
+    question: "O que mais te faz sentir amada?",
     answers: [
       { text: "Palavras de carinho", value: "v1" },
       { text: "Gestos inesperados", value: "v2" },
@@ -28,7 +28,7 @@ const questions = [
     ]
   },
   {
-    question: "2-O que mais fortalece a tua ligação emocional com o teu parceiro",
+    question: "O que mais fortalece a tua ligação emocional com o teu parceiro",
     answers: [
       { text: "Conversas profundas", value: "v1" },
       { text: "Rituais românticos", value: "v2" },
@@ -38,7 +38,7 @@ const questions = [
     ]
   },
   {
-    question: "Pergunta 3:Como gostarias que o teu parceiro te acarinhasse mais?",
+    question: "Como gostarias que o teu parceiro te acarinhasse mais?",
     answers: [
       { text: "Com mais palavras doces", value: "v1" },
       { text: "Com mais mimos físicos", value: "v2" },
@@ -48,23 +48,23 @@ const questions = [
     ]
   },
   {
-    question: "Pergunta 4: Exemplo real da fase 1",
+    question: "Quando te sentes mais conectado(a)?",
     answers: [
-      { text: "Opção A", value: "v1" },
-      { text: "Opção B", value: "v2" },
-      { text: "Opção C", value: "v3" },
-      { text: "Opção D", value: "v4" },
-      { text: "Opção E", value: "v5" },
+      { text: "Durante uma troca de olhares sincera", value: "v1" },
+      { text: "Num abraço apertado", value: "v2" },
+      { text: "Após uma boa conversa", value: "v3" },
+      { text: "Em momentos de silêncio cúmplice", value: "v4" },
+      { text: "Ao dormir juntinhos", value: "v5" },
     ]
   },
   {
-    question: "Pergunta 5: Exemplo real da fase 1",
+    question: "Qual destas situações te deixaria mais feliz?",
     answers: [
-      { text: "Opção A", value: "v1" },
-      { text: "Opção B", value: "v2" },
-      { text: "Opção C", value: "v3" },
-      { text: "Opção D", value: "v4" },
-      { text: "Opção E", value: "v5" },
+      { text: "Receber uma carta de amor", value: "v1" },
+      { text: "Um jantar surpresa", value: "v2" },
+      { text: "Uma massagem sem motivo", value: "v3" },
+      { text: "Uma noite a dois longe de tudo", value: "v4" },
+      { text: "Ouvir 'amo-te' sem ser esperado", value: "v5" },
     ]
   },
   {
