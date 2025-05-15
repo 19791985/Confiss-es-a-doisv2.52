@@ -10,7 +10,6 @@ const continueBtn = document.getElementById("continue-btn");
 
 const phases = [
   { title: "Fase 1: Conexão Emocional", description: "Explora o que une os vossos corações e mentes." },
-  <p>Nesta fase, exploramos as emoções, a ternura e a ligação afetiva entre o casal. As perguntas são construídas para fortalecer o diálogo íntimo, a empatia e a valorização do “nós”. Cada resposta representa uma nuance emocional diferente.</p>
   { title: "Fase 2: Intimidade e Confiança", description: "Descobre como confiam, tocam e se entregam." },
   { title: "Fase 3: Desejo e Curiosidade", description: "Aprofunda a curiosidade e a vontade de mais." },
   { title: "Fase 4: Fantasias e Ousadia", description: "Liberta os desejos mais intensos e secretos." },
