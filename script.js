@@ -317,7 +317,7 @@ const questions = [
     { text: "Vontade de agradar", value: "confianca_vontade" }
   ]
 }
-  {
+{
   question: "31. Qual destes sons te excita mais durante o sexo?",
   answers: [
     { text: "Sussurros ao ouvido", value: "som_sussurros" },
@@ -916,7 +916,7 @@ const questions = [
     { text: "Estou sempre aqui para ti", value: "frase_presenca" },
     { text: "Quero fazer-te feliz todos os dias", value: "frase_feliz" }
   ]
-}
+},
 {
   question: "91. Como defines fazer amor com alguém que amas profundamente?",
   answers: [
