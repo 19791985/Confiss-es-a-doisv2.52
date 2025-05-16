@@ -68,8 +68,8 @@ const questions = [
     ]
   },
   {
-  question: "6. Qual a tua linguagem do amor preferida?",
-  answers: [
+    question: "6. Qual a tua linguagem do amor preferida?",
+    answers: [
     { text: "Palavras de afirmação", value: "linguagem_palavras" },
     { text: "Toque físico", value: "linguagem_toque" },
     { text: "Tempo de qualidade", value: "linguagem_tempo" },
