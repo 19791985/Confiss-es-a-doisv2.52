@@ -18,7 +18,7 @@ const phases = [
 
 const questions = [
   {
-    question: "O que mais te faz sentir amada?",
+    question: "1-O que mais te faz sentir amada?",
     answers: [
       { text: "Palavras de carinho", value: "v1" },
       { text: "Gestos inesperados", value: "v2" },
@@ -28,7 +28,7 @@ const questions = [
     ]
   },
   {
-    question: "O que mais fortalece a tua ligação emocional com o teu parceiro",
+    question: "2-O que mais fortalece a tua ligação emocional com o teu parceiro?",
     answers: [
       { text: "Conversas profundas", value: "v1" },
       { text: "Rituais românticos", value: "v2" },
@@ -38,7 +38,7 @@ const questions = [
     ]
   },
   {
-    question: "Como gostarias que o teu parceiro te acarinhasse mais?",
+    question: "3-Como gostarias que o teu parceiro te acarinhasse mais?",
     answers: [
       { text: "Com mais palavras doces", value: "v1" },
       { text: "Com mais mimos físicos", value: "v2" },
@@ -48,7 +48,7 @@ const questions = [
     ]
   },
   {
-    question: "Quando te sentes mais conectado(a)?",
+    question: "4-Quando te sentes mais conectada?",
     answers: [
       { text: "Durante uma troca de olhares sincera", value: "v1" },
       { text: "Num abraço apertado", value: "v2" },
@@ -58,7 +58,7 @@ const questions = [
     ]
   },
   {
-    question: "Qual destas situações te deixaria mais feliz?",
+    question: "5-Qual destas situações te deixaria mais feliz?",
     answers: [
       { text: "Receber uma carta de amor", value: "v1" },
       { text: "Um jantar surpresa", value: "v2" },
@@ -117,106 +117,106 @@ const questions = [
     { text: "Quando me respeita nas decisões", value: "conexao_respeito" }
   ]
 },
-  {
-    question: "Pergunta 11: Exemplo real da fase 1",
-    answers: [
-      { text: "Opção A", value: "v1" },
-      { text: "Opção B", value: "v2" },
-      { text: "Opção C", value: "v3" },
-      { text: "Opção D", value: "v4" },
-      { text: "Opção E", value: "v5" },
-    ]
-  },
-  {
-    question: "Pergunta 12: Exemplo real da fase 1",
-    answers: [
-      { text: "Opção A", value: "v1" },
-      { text: "Opção B", value: "v2" },
-      { text: "Opção C", value: "v3" },
-      { text: "Opção D", value: "v4" },
-      { text: "Opção E", value: "v5" },
-    ]
-  },
-  {
-    question: "Pergunta 13: Exemplo real da fase 1",
-    answers: [
-      { text: "Opção A", value: "v1" },
-      { text: "Opção B", value: "v2" },
-      { text: "Opção C", value: "v3" },
-      { text: "Opção D", value: "v4" },
-      { text: "Opção E", value: "v5" },
-    ]
-  },
-  {
-    question: "Pergunta 14: Exemplo real da fase 1",
-    answers: [
-      { text: "Opção A", value: "v1" },
-      { text: "Opção B", value: "v2" },
-      { text: "Opção C", value: "v3" },
-      { text: "Opção D", value: "v4" },
-      { text: "Opção E", value: "v5" },
-    ]
-  },
-  {
-    question: "Pergunta 15: Exemplo real da fase 1",
-    answers: [
-      { text: "Opção A", value: "v1" },
-      { text: "Opção B", value: "v2" },
-      { text: "Opção C", value: "v3" },
-      { text: "Opção D", value: "v4" },
-      { text: "Opção E", value: "v5" },
-    ]
-  },
-  {
-    question: "Pergunta 16: Exemplo real da fase 1",
-    answers: [
-      { text: "Opção A", value: "v1" },
-      { text: "Opção B", value: "v2" },
-      { text: "Opção C", value: "v3" },
-      { text: "Opção D", value: "v4" },
-      { text: "Opção E", value: "v5" },
-    ]
-  },
-  {
-    question: "Pergunta 17: Exemplo real da fase 1",
-    answers: [
-      { text: "Opção A", value: "v1" },
-      { text: "Opção B", value: "v2" },
-      { text: "Opção C", value: "v3" },
-      { text: "Opção D", value: "v4" },
-      { text: "Opção E", value: "v5" },
-    ]
-  },
-  {
-    question: "Pergunta 18: Exemplo real da fase 1",
-    answers: [
-      { text: "Opção A", value: "v1" },
-      { text: "Opção B", value: "v2" },
-      { text: "Opção C", value: "v3" },
-      { text: "Opção D", value: "v4" },
-      { text: "Opção E", value: "v5" },
-    ]
-  },
-  {
-    question: "Pergunta 19: Exemplo real da fase 1",
-    answers: [
-      { text: "Opção A", value: "v1" },
-      { text: "Opção B", value: "v2" },
-      { text: "Opção C", value: "v3" },
-      { text: "Opção D", value: "v4" },
-      { text: "Opção E", value: "v5" },
-    ]
-  },
-  {
-    question: "Pergunta 20: Exemplo real da fase 1",
-    answers: [
-      { text: "Opção A", value: "v1" },
-      { text: "Opção B", value: "v2" },
-      { text: "Opção C", value: "v3" },
-      { text: "Opção D", value: "v4" },
-      { text: "Opção E", value: "v5" },
-    ]
-  },
+{
+  question: "11. Qual destas frases te faz sentir mais segura?",
+  answers: [
+    { text: "Estou aqui para ti", value: "segura_apoio" },
+    { text: "Admiro a tua força", value: "segura_respeito" },
+    { text: "Confio em nós", value: "segura_confianca" },
+    { text: "Gosto de ver-te crescer", value: "segura_crescimento" },
+    { text: "A tua opinião é importante para mim", value: "segura_valor" }
+  ]
+},
+{
+  question: "12. Como te sentes quando o teu parceiro te ouve com atenção?",
+  answers: [
+    { text: "Compreendida", value: "compreendida" },
+    { text: "Respeitada", value: "respeitada" },
+    { text: "Amada", value: "amada" },
+    { text: "Segura", value: "segura" },
+    { text: "Inspirada", value: "inspirada" }
+  ]
+},
+{
+  question: "13. Qual destas ações aumenta a tua confiança na relação?",
+  answers: [
+    { text: "Partilhar medos", value: "confiança_medos" },
+    { text: "Cumprir promessas", value: "confiança_promessas" },
+    { text: "Estar presente", value: "confiança_presenca" },
+    { text: "Apoiar nos desafios", value: "confiança_apoio" },
+    { text: "Mostrar vulnerabilidade", value: "confiança_vulneravel" }
+  ]
+},
+{
+  question: "14. Que gesto romântico te toca mais fundo?",
+  answers: [
+    { text: "Carta de amor", value: "gesto_carta" },
+    { text: "Olhar cúmplice", value: "gesto_olhar" },
+    { text: "Declaração sincera", value: "gesto_declaracao" },
+    { text: "Lembrança especial", value: "gesto_lembranca" },
+    { text: "Música partilhada", value: "gesto_musica" }
+  ]
+},
+{
+  question: "15. O que é mais importante numa relação duradoura?",
+  answers: [
+    { text: "Comunicação", value: "relacao_comunicacao" },
+    { text: "Respeito mútuo", value: "relacao_respeito" },
+    { text: "Afeto constante", value: "relacao_afeto" },
+    { text: "Apoio nos momentos difíceis", value: "relacao_apoio" },
+    { text: "Admirar o outro", value: "relacao_admiracao" }
+  ]
+},
+{
+  question: "16. Como defines cumplicidade?",
+  answers: [
+    { text: "Olhares que dizem tudo", value: "cumplicidade_olhares" },
+    { text: "Saber o que o outro sente", value: "cumplicidade_sensibilidade" },
+    { text: "Estar presente sem pedir", value: "cumplicidade_presenca" },
+    { text: "Rir dos mesmos disparates", value: "cumplicidade_riso" },
+    { text: "Criar códigos próprios", value: "cumplicidade_codigos" }
+  ]
+},
+{
+  question: "17. Qual destes momentos te emociona mais?",
+  answers: [
+    { text: "Um abraço após discussão", value: "emocao_reconciliacao" },
+    { text: "Uma partilha inesperada", value: "emocao_partilha" },
+    { text: "Uma mensagem carinhosa", value: "emocao_mensagem" },
+    { text: "Ser escutada em silêncio", value: "emocao_escuta" },
+    { text: "Ver o outro feliz por ti", value: "emocao_orgulho" }
+  ]
+},
+{
+  question: "18. Como gostas de cuidar da vossa relação?",
+  answers: [
+    { text: "Conversando todos os dias", value: "cuidar_conversa" },
+    { text: "Dedicando tempo a dois", value: "cuidar_tempo" },
+    { text: "Sendo carinhosa/o", value: "cuidar_afeto" },
+    { text: "Valorizando os detalhes", value: "cuidar_detalhes" },
+    { text: "Apoiando os sonhos", value: "cuidar_sonhos" }
+  ]
+},
+{
+  question: "19. Qual destas rotinas diárias reforça a vossa união?",
+  answers: [
+    { text: "Café juntos", value: "rotina_cafe" },
+    { text: "Desejar bom dia/boa noite", value: "rotina_boas" },
+    { text: "Trocar mensagens", value: "rotina_mensagens" },
+    { text: "Partilhar refeições", value: "rotina_refeicoes" },
+    { text: "Assistir algo juntos", value: "rotina_serie" }
+  ]
+},
+{
+  question: "20. Que tipo de elogio mais te faz sorrir?",
+  answers: [
+    { text: "Sobre o teu olhar", value: "elogio_olhar" },
+    { text: "Sobre a tua força", value: "elogio_forca" },
+    { text: "Sobre o teu carinho", value: "elogio_carinho" },
+    { text: "Sobre o teu corpo", value: "elogio_corpo" },
+    { text: "Sobre quem és", value: "elogio_essencia" }
+  ]
+},
   {
     question: "Pergunta 21: Exemplo real da fase 2",
     answers: [
