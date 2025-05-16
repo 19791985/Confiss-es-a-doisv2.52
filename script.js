@@ -316,7 +316,7 @@ const questions = [
     { text: "Elogios sinceros", value: "confianca_elo" },
     { text: "Vontade de agradar", value: "confianca_vontade" }
   ]
-}
+},
 {
   question: "31. Qual destes sons te excita mais durante o sexo?",
   answers: [
@@ -416,7 +416,7 @@ const questions = [
     { text: "Escuta os teus limites", value: "cresce_escuta" },
     { text: "Faz-te rir", value: "cresce_riso" }
   ]
-}
+},
 {
   question: "41. O que mais te desperta desejo?",
   answers: [
@@ -516,7 +516,7 @@ const questions = [
     { text: "Complementares no amor", value: "curioso_complemento" },
     { text: "Forças que assustam e atraem", value: "curioso_dual" }
   ]
-}
+},
 {
   question: "51. Em que altura do dia sentes mais vontade?",
   answers: [
@@ -616,7 +616,7 @@ const questions = [
     { text: "Quando me observa em silêncio", value: "momento_silencio" },
     { text: "Quando me deixa conduzir", value: "momento_conduzir" }
   ]
-}
+},
 {
   question: "61. Já fantasiaste em ser amarrada ou imobilizada?",
   answers: [
@@ -716,7 +716,7 @@ const questions = [
     { text: "Preciso de mais confiança", value: "nivel_precisa" },
     { text: "Não quero explorar", value: "nivel_nao" }
   ]
-}
+},
 {
   question: "71. Como reages quando és empurrada suavemente contra a parede?",
   answers: [
@@ -816,7 +816,7 @@ const questions = [
     { text: "Sentir-me completamente segura", value: "rendir_seguranca" },
     { text: "Ter controlo mas escolher entregar-me", value: "rendir_controle" }
   ]
-}
+},
 {
   question: "81. O que mais fortalece a tua cumplicidade com o teu parceiro?",
   answers: [
