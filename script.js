@@ -68,55 +68,55 @@ const questions = [
     ]
   },
   {
-    question: "Pergunta 6: Exemplo real da fase 1",
-    answers: [
-      { text: "Opção A", value: "v1" },
-      { text: "Opção B", value: "v2" },
-      { text: "Opção C", value: "v3" },
-      { text: "Opção D", value: "v4" },
-      { text: "Opção E", value: "v5" },
-    ]
-  },
-  {
-    question: "Pergunta 7: Exemplo real da fase 1",
-    answers: [
-      { text: "Opção A", value: "v1" },
-      { text: "Opção B", value: "v2" },
-      { text: "Opção C", value: "v3" },
-      { text: "Opção D", value: "v4" },
-      { text: "Opção E", value: "v5" },
-    ]
-  },
-  {
-    question: "Pergunta 8: Exemplo real da fase 1",
-    answers: [
-      { text: "Opção A", value: "v1" },
-      { text: "Opção B", value: "v2" },
-      { text: "Opção C", value: "v3" },
-      { text: "Opção D", value: "v4" },
-      { text: "Opção E", value: "v5" },
-    ]
-  },
-  {
-    question: "Pergunta 9: Exemplo real da fase 1",
-    answers: [
-      { text: "Opção A", value: "v1" },
-      { text: "Opção B", value: "v2" },
-      { text: "Opção C", value: "v3" },
-      { text: "Opção D", value: "v4" },
-      { text: "Opção E", value: "v5" },
-    ]
-  },
-  {
-    question: "Pergunta 10: Exemplo real da fase 1",
-    answers: [
-      { text: "Opção A", value: "v1" },
-      { text: "Opção B", value: "v2" },
-      { text: "Opção C", value: "v3" },
-      { text: "Opção D", value: "v4" },
-      { text: "Opção E", value: "v5" },
-    ]
-  },
+  question: "6. Qual a tua linguagem do amor preferida?",
+  answers: [
+    { text: "Palavras de afirmação", value: "linguagem_palavras" },
+    { text: "Toque físico", value: "linguagem_toque" },
+    { text: "Tempo de qualidade", value: "linguagem_tempo" },
+    { text: "Gestos de serviço", value: "linguagem_ajuda" },
+    { text: "Presentes simbólicos", value: "linguagem_presentes" }
+  ]
+},
+{
+  question: "7. Sentes-te confortável a expressar emoções?",
+  answers: [
+    { text: "Sim, totalmente", value: "aberta" },
+    { text: "Às vezes", value: "moderada" },
+    { text: "Só com quem confio", value: "reservada" },
+    { text: "Prefiro guardar para mim", value: "fechada" },
+    { text: "Depende do dia", value: "variável" }
+  ]
+},
+{
+  question: "8. Como gostas de ser surpreendida?",
+  answers: [
+    { text: "Com palavras românticas", value: "surpresa_palavras" },
+    { text: "Com um jantar especial", value: "surpresa_jantar" },
+    { text: "Com um beijo inesperado", value: "surpresa_beijo" },
+    { text: "Com uma escapadinha", value: "surpresa_viagem" },
+    { text: "Com um presente simbólico", value: "surpresa_presente" }
+  ]
+},
+{
+  question: "9. Qual destas situações te traz mais proximidade?",
+  answers: [
+    { text: "Conversar sobre sentimentos", value: "proximidade_conversa" },
+    { text: "Partilhar silêncios", value: "proximidade_silencio" },
+    { text: "Rir juntos", value: "proximidade_riso" },
+    { text: "Abraçar por minutos", value: "proximidade_abraco" },
+    { text: "Cuidar um do outro", value: "proximidade_cuidado" }
+  ]
+},
+{
+  question: "10. Quando te sentes mais conectada com o teu parceiro?",
+  answers: [
+    { text: "Durante conversas profundas", value: "conexao_conversa" },
+    { text: "Quando ele me escuta", value: "conexao_escuta" },
+    { text: "Quando me toca com ternura", value: "conexao_toque" },
+    { text: "Quando rimos juntos", value: "conexao_riso" },
+    { text: "Quando me respeita nas decisões", value: "conexao_respeito" }
+  ]
+}
   {
     question: "Pergunta 11: Exemplo real da fase 1",
     answers: [
