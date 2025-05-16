@@ -217,7 +217,7 @@ const questions = [
     { text: "Sobre quem és", value: "elogio_essencia" }
   ]
 },
-  {
+{
   question: "21. Como te sentes quando o teu parceiro te acaricia lentamente?",
   answers: [
     { text: "Segura e desejada", value: "acaricia_segura" },
