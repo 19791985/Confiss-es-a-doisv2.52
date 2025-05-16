@@ -116,7 +116,7 @@ const questions = [
     { text: "Quando rimos juntos", value: "conexao_riso" },
     { text: "Quando me respeita nas decisões", value: "conexao_respeito" }
   ]
-}
+},
   {
     question: "Pergunta 11: Exemplo real da fase 1",
     answers: [
